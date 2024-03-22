@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Book Store</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style copy.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">
+        <i class="fa-solid fa-user"></i>
+        Profile</div>
+    <div class="nav-links">
+        <a href="index - Copy.html" class="nav-link">Home</a>
+        <a href="#" onclick="redirectToCrudApp(); return false;" class="nav-link">Student Management</a>
+        <!-- <a href="#" class="nav-link">My Books</a>
+        <a href="#" class="nav-link">New Book Register</a> -->
+    </div>
+</div>
+
+<!-- Main content -->
+<div class="main-content">
+    <div class="matter">
+        <!-- Your main content goes here -->
+        <center><h1 class="h">Welcome</h1></center>
+        <center><p class="pa">Welcome to our Student Details Management System! Our platform offers essential tools for efficiently managing student records. Easily add new student profiles, update existing information, or remove outdated records with just a few clicks. Our intuitive interface simplifies the process, allowing administrators to navigate seamlessly through the database. Utilize our robust search functionality to quickly find specific student details based on name, ID, or other criteria. With our platform, maintaining accurate student records has never been easier. Experience the convenience of modern record management with our user-friendly system.</p></center>
+
+            <img src="book.jpg" alt="Bookstore Image" >
+    </div>
+    <!-- <div class="img">
+        <img src="books.jpg" alt="Bookstore Image">
+    </div> -->
+</div>
+<script>
+    // Function to redirect to your CRUD application
+    function redirectToCrudApp() {
+// Redirect to your local CRUD app
+window.location.href = 'http://localhost:3000';
+}       
+</script>
+</body>
+</html>

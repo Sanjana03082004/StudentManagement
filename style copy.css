@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Navbar styles */
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #2F4F4F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Spacing between logo and navigation links */
+    padding: 0 20px; /* Add padding to the navbar */
+}
+
+/* Logo styles */
+.logo {
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    color: aliceblue;
+    /* Add margin to separate logo from navigation links */
+    margin-right: auto;
+}
+
+/* Navigation links styles */
+.nav-link {
+    height: 50px;
+    width: auto; /* Adjust width based on content */
+    font-size: 18px;
+    color: ivory;
+    margin-left: 20px; /* Add margin between navigation links */
+}
+
+/* Additional styles for demonstration purposes */
+.matter {
+    height: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.pa{
+    padding-top: 20px;
+    height: 700px;
+    width: 700px;
+    font-family: cursive;
+    color: #2F4F4F;
+}
+.matter img {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.h{
+    padding-top: 30px;
+    font-family: cursive;
+    color: #2F4F4F;
+}
+
+
+
+
+
+
+
